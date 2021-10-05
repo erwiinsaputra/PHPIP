@@ -1,0 +1,27 @@
+# Global files
+*.zip
+.svn
+.DS_Store
+thumbs.db
+
+
+# Codeigniter files
+application/config/*
+application/third_party/*
+public/assets/admin/*
+public/assets/global/*
+public/captcha/*
+public/files/*
+
+
+# additional
+*/user_guide
+*/system/logs/log-*.php
+*/system/cache/*
+*/system/cache/!index.html
+
+
+# additional
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess

@@ -1,0 +1,75 @@
+  .skrol{ height: 520px; padding:0px; margin:0px; overflow: hidden; }
+
+  .status_line{ background-color: red;}
+
+  /*Warna Level*/
+  .level_1{
+    border:2px solid green;
+    background: green;
+  }
+  .level_1 .gantt_task_progress{
+    background: grey;
+  }
+  .level_1 .gantt_task_content{
+    color: white;
+  }
+
+  .level_2{
+    border:2px solid yellow;
+    background: yellow;
+  }
+  .level_2 .gantt_task_progress{
+    background: grey;
+  }
+  .level_2 .gantt_task_content{
+    color:black;
+  }
+
+  .level_3{
+    border:2px solid red;
+    background: red;
+  }
+  .level_3 .gantt_task_progress{
+    background: grey;
+  }
+  .level_3 .gantt_task_content{
+    color:white;
+  }
+  
+
+
+  .level_4{
+    border:2px solid black;
+    color:white;
+    background: black;
+  }
+  .level_4 .gantt_task_progress{
+    background: grey;
+  }
+  .level_4 .gantt_task_content{
+    color:white;
+  }
+
+
+
+  /*css untuk membuat aktual*/
+  .child_preview{
+    box-sizing: border-box;
+    margin-top: 2px;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.5;
+  }
+  .gantt_task_line.task-collapsed{
+    height: 4px;
+    opacity: 0.5;
+  }
+  .gantt_task_line.gantt_project.task-collapsed .gantt_task_content{
+    display: none;
+  }
+  .gantt_row.task-parent{
+    font-weight: bold;
+  }
